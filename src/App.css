@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.project img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.chronolog-page img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+.contact-methods li {
+  margin-right: 1em; /* adjust as needed */
+}
+
+.contact-methods li:last-child {
+  margin-right: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto; /* This centers the container if its width is less than 800px and adds 20px margin to top and bottom */
+  padding: 20px; 
+}
+
+.project {
+  display: flex;
+  margin-bottom: 2em; 
+  align-items: center;
+}
+
+.project img {
+  width: 20vh;
+  height: 20vh;
+  object-fit: cover;
+  margin-right: 1em;
+}
+
+
+.project .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project h3, .project p, .project a {
+  margin: 0;
+}
+
+.project a {
+  text-decoration: none;
+  color: #007BFF;
+  align-self: flex-end;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* This centers the container if its width is less than 800px */
+}
+
+/* HEADER */
+header {
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 0.5rem;  /* Reduce the margin-bottom here */
+}
+
+.contact-section {
+  font-size: 0.8rem;
+}
+
+.contact-section h2 {
+  margin-bottom: 0.2rem;
+}
+
+.contact-methods {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
