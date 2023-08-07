@@ -10,7 +10,7 @@ function SiteFooter() {
                 <ul className="contact-methods">
                     <li><a href="mailto:tylerjaywood@gmail.com">Email</a></li>
                     <li><a href="https://www.linkedin.com/in/tyler-wood-a2256b54/">LinkedIn</a></li>
-                    <li><a href="https://www.twitter.com/in/tylerjaywood/">Twitter</a></li>
+                    <li><a href="https://www.twitter.com/tylerjaywood/">Twitter</a></li>
                     {/* More contact methods go here */}
                 </ul>
             </div>

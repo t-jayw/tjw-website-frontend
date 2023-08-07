@@ -12,6 +12,23 @@ const ProjectList = () => {
     <section id="projects">
     <h2>Projects</h2>
 
+      <article className="project">
+        <iframe 
+          width="100%" 
+          height="166" 
+          scrolling="no" 
+          frameBorder="no" 
+          allow="autoplay" 
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2231083511&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          title="Angeles Pop Punk Cover"
+        />
+        <div className="content">
+          <h3>Angeles (Pop Punk Cover)</h3>
+          <p>A pop punk cover of Elliott Smith's "Angeles" — recorded, mixed, and produced by me.</p>
+          <a href="https://soundcloud.com/tyler-jay-wood-435759129/angeles-pop-punk-cover">Listen on SoundCloud</a>
+        </div>
+      </article>
+
       <Project 
         title="ChronoLog" 
         description="iOS app written in Flutter to help watch collectors track accuracy of watches. 20k+ downloads. 1000+ premium purchases. 4.8 stars/100+ reviews." 
@@ -48,6 +65,3 @@ const ProjectList = () => {
 };
 
 export default ProjectList;
-
-
-
