@@ -22,7 +22,7 @@ const ProjectList = () => {
 
       <Project 
         title="Chrono.quest" 
-        description="A daily history game in the spirit of wordle. 2,500,000+ games played. Costs ~$5/ month on AWS. Uses JS hosted on S3. Metrics collected via APIGateway to a Kinesis stream that writes Parquet to S3 for analysis. All managed by Terraform." 
+        description="A daily history game in the spirit of wordle. 3,500,000+ games played. Costs ~$5/ month on AWS. Uses JS hosted on S3. Metrics collected via APIGateway to a Kinesis stream that writes Parquet to S3 for analysis. All managed by Terraform." 
         imageUrl={chronologo}
         link="https://chrono.quest"
       />
