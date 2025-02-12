@@ -14,7 +14,7 @@ const ProjectList = () => {
 
       <Project 
         title="ChronoLog" 
-        description="iOS app to help watch collectors track accuracy of watches. 20k+ downloads. 1000+ premium purchases. 4.7 stars." 
+        description="iOS app written in Flutter to help watch collectors track accuracy of watches. 20k+ downloads. 1000+ premium purchases. 4.8 stars/100+ reviews." 
         imageUrl={watchlogo}
         link="/chronolog"
       />
@@ -38,9 +38,9 @@ const ProjectList = () => {
 
       <Project 
         title="Take Care of My Plant" 
-        description="[Shut down] Used a raspberry pi and a pump to give Reddit control over my plant. Subreddit of 20,000+ spent over 3 years keeping plant alive. Featured in Vice, DailyDot, Mashable and Le Monde. Programmed RPi GPIO for controlling electronics and reading sensors. Operations automated with Python and Praw." 
+        description="[Shut down] Used a raspberry pi and a pump to give Reddit control over my plant. Subreddit of 20,000+ users spent over 3 years watering the plant and keeping it alive. Featured in Vice, DailyDot, Mashable and Le Monde. Programmed RPi GPIO for controlling electronics and reading sensors. Operations automated with Python and Praw." 
         imageUrl={tcomp}
-        link='https://www.reddit.com/r/takecareofmyplant/top/'
+        link='https://www.reddit.com/r/takecareofmyplant/top/?sort=top&t=all'
       />
 
     </section>
