@@ -14,7 +14,7 @@ const ProjectList = () => {
 
       <Project 
         title="ChronoLog" 
-        description="an iOS (for now) app written in Flutter to help collectors track accuracy of watches. Uses riverpod and fl_charts for state management and data viz." 
+        description="iOS app to help watch collectors track accuracy of watches. 20k+ downloads. 1000+ premium purchases. 4.7 stars." 
         imageUrl={watchlogo}
         link="/chronolog"
       />
@@ -22,7 +22,7 @@ const ProjectList = () => {
 
       <Project 
         title="Chrono.quest" 
-        description="A daily history game in the spirit of wordle. 3,500,000+ games played. Costs ~$5/ month on AWS. Uses JS hosted on S3. Metrics collected via APIGateway to a Kinesis stream that writes Parquet to S3 for analysis. All managed by Terraform." 
+        description="[SOLD] A daily history game in the spirit of wordle. 5 million+ games played by 500k+ unique users. Cost ~$5/ month on AWS. Uses JS hosted on S3. Metrics collected via APIGateway to a Kinesis stream that writes Parquet to S3 for analysis. All managed by Terraform." 
         imageUrl={chronologo}
         link="https://chrono.quest"
       />
