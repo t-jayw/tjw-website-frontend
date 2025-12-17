@@ -24,7 +24,7 @@ const ProjectList = () => {
         />
         <div className="content">
           <h3>Angeles (Pop Punk Cover)</h3>
-          <p>A pop punk cover of Elliott Smith's "Angeles" — one of my favorite songs. Everything by me. The drums are computer.</p>
+          <p>A pop punk cover of Elliott Smith's "Angeles" — one of my favorite songs. Everything recorded by me. Except the drums are computer.</p>
           <a href="https://soundcloud.com/tyler-jay-wood-435759129/angeles-pop-punk-cover">Listen on SoundCloud</a>
         </div>
       </article>
