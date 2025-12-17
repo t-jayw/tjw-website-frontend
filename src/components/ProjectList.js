@@ -60,6 +60,8 @@ const ProjectList = () => {
         link='https://www.reddit.com/r/takecareofmyplant/top/?sort=top&t=all'
       />
 
+
+
     </section>
   );
 };
