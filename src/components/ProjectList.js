@@ -31,7 +31,7 @@ const ProjectList = () => {
 
       <Project 
         title="ChronoLog" 
-        description="iOS app written in Flutter to help watch collectors track accuracy of watches. 20k+ downloads. 1000+ premium purchases. 4.8 stars/100+ reviews." 
+        description="iOS and Android app written in Flutter to help watch collectors track accuracy of watches. 30k+ downloads. 1200+ premium purchases. 4.7 stars/200+ reviews on iOS." 
         imageUrl={watchlogo}
         link="/chronolog"
       />
